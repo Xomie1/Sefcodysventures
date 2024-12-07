@@ -59,6 +59,15 @@ mark {
 	background-color: transparent;
 	color: inherit;
 }
+@media screen and (max-width: 768px) {
+    #header .logo {
+        font-size: 10px; /* Adjust size as needed */
+    }
+
+    #intro h1 {
+        font-size: 15px; /* Adjust size of the intro header */
+    }
+}
 
 input::-moz-focus-inner {
 	border: 0;
